@@ -254,7 +254,7 @@
   []
   [ini_strain]
     type = ComputeEigenstrainFromInitialStress
-    initial_stress = 'sigma_v_ini 0 0 0 sigma_h_ini 0 0 0 sigma_h_ini'
+    initial_stress = '-sigma_v_ini 0 0 0 -sigma_h_ini 0 0 0 -sigma_h_ini'
     eigenstrain_name = ini_stress
   []
 #  [thermal_contribution]
