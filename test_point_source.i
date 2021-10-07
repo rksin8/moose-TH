@@ -5,7 +5,7 @@
 #
 [Mesh]
   type = FileMesh
-  file ="./mesh/mesh_coarse.msh"
+  file ="mesh_coarse.msh"
 []
 
 [GlobalParams]
